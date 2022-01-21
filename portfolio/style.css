@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,300;1,700&display=swap');
+*{
+    font-family: "roboto";
+}
+.but{
+    width: 130px;
+    border-radius: 25px;
+    padding:11px;
+    background-color: #FCA91C;
+    color: white;
+    border: #FCA91C;
+    margin-left: 184px;
+    margin-right: 40px;
+    box-shadow: 0px 10px 100px #fca91c;
+    
+
+}
+.link {
+  background-color: #FCA91C;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0px 10px 100px #fca91c;
+  border-radius: 25px;
+  width: 130px;
+}
+.link:hover{
+  color: white;
+}
+h1{
+    letter-spacing: 2px;
+    font-family: "alfa slab one";
+
+}
+.koui{
+    font-family: "alfa slab one";
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.buto{
+    width: 130px;
+    border-radius: 25px;
+    padding:11px;
+    background-color: #FCA91C;
+    color: white;
+    border: #FCA91C;
+    box-shadow: 0px 10px 100px #fca91c;
+    transition: all 0.3s ease 0s;
+}
+.buto:hover{
+    transform: translateY(-7px);
+}
+.buton{
+  background-color: #FCA91C;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0px 10px 100px #fca91c;
+  border-radius: 25px;
+  width: 130px;
+
+    transition: all 0.3s ease 0s;
+}
+.buton:hover{
+    transform: translateY(-7px);
+    color: white;
+}
+.sec{
+    font-weight: 900;
+}
+
+.fs{
+    font-size: 12px;
+    color: #04142F;
+    font-weight: bold;
+}
+.col{
+    color: #04142F;
+}
+.gr{
+    font-size: 15px;
+    color: rgba(78, 78, 78, 0.856);
+}
+.carte{
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 6px;
+    margin-left: 80px;
+    
+    box-shadow: 0px 7px 10px 5px whitesmoke;
+
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+.noel{
+    width: 60px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+.de{
+    font-size: bold;
+    font-family: "alfa slab one";
+    font-size: 13px;
+    padding-top: 15px;
+    color:#04142F ;
+}
+.lea{
+    margin-left: 90px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: #0F62FE;
+    border: 2px white;
+    box-shadow: 0px 3px 10px 5px whitesmoke;
+    padding: 5px 18px;
+    font-weight: bold;
+}
+.re{
+    position: relative;
+
+}
+.ab{
+    position: absolute;
+  
+}
+.ob{
+  position: absolute;
+  z-index: 10;
+  margin-top: 80px;
+}
+.abo{
+    -ms-transform: rotate(20deg);
+  transform: rotate(122deg);
+  position: absolute;
+  z-index: 0;
+}
+.distance{
+    padding-top: 150px
+}
+.logo{
+    width: 100px;
+}
+.back{
+    margin-left: 372px;
+    margin-top: -60px;
+}
+/*mlkjkljkjkl*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+.wrapper{
+  width: 100%;
+}
+.carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+.carousel .card{
+  /* color: #fff; */
+  text-align: center;
+  margin: 20px 0;
+  line-height: 250px;
+  font-size: 90px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot{
+  height: 15px;
+  width: 45px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid #0072bc!important;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: #0072bc!important;
+}
+.sli{
+    height: 366px;
+}
+/* contact page */
+
+/****/
+li:hover{
+  text-decoration: 2px   underline  #F1C21B;
+  text-underline-offset: 5px;
+  
+  
+  
+}
