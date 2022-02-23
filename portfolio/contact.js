@@ -1,4 +1,5 @@
-function sendMail() {
+function sendMail(e) {
+	e.preventDefault()
 	var tempParams ={
 	from_name: document.getElementById ("fromName").value,
 	to_name: document.getElementById("toName").value,

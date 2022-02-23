@@ -58,7 +58,7 @@
       </div>
       
       <div  class="message">
-        <form action="">
+        <form onsubmit='sendMail' action="">
           <input type="text" class="name" name="name" id="toName" placeholder=" Name* " required>
 
           <input type="email" class="email" name="email" id="fromName" placeholder=" Email* " required
@@ -69,7 +69,7 @@
           <textarea name="message" class="messarea" id="msg" placeholder=" Message* " required></textarea>
 
           <input type="text" name="address" id="address" style="display: none;">
-          <input onclick='sendMail()' type="submit" value="Send" id="send">
+          <input  type="submit" value="Send" id="send">
         </form>
         </div>
     
